@@ -3,12 +3,13 @@ Section: utils
 Priority: extra
 Maintainer: Zygmunt Krynicki <zygmunt.krynicki@canonical.com>
 Standards-Version: 3.9.3
-Homepage: https://www.google.com/search?q=pieseł
+Build-Depends: debhelper (>= 9), dh-python, python3-all
+Homepage: https://github.com/zyga/piesel
 
 Package: piesel
 Architecture: all
 Section: games
-Depends: python3
+Depends: ${python3:Depends}, ${misc:Depends}
 Description: Pieseł, wow, so fun
  Wow, Pieseł so cute
  So fun

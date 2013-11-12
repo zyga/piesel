@@ -1,9 +1,4 @@
 #!/usr/bin/make -f
-clean:
-	@echo "wow, pieseł so clean"
-
-build:
-	@echo "so strong, so build, wow"
-
-binary:
-	@echo "binary, so cryptic, wow?"
+export PYBUILD_NAME=piesel
+%:
+	dh $@ --with=python3 --buildsystem=pybuild

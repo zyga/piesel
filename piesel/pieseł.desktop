@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Pieseł
+Comment=Wow so integated. XDG wow!
+Encoding=UTF-8
+Exec=/usr/bin/pieseł
+Terminal=false
+Type=Application
+Icon=pieseł
+StartupNotify=false
+Categories=Application
