@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+import webbrowser
+
+if __name__ == "__main__":
+    webbrowser.open("https://www.google.com/search?q=piese%C5%82")

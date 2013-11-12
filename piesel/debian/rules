@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+clean:
+	@echo "wow, pieseł so clean"
+
+build:
+	@echo "so strong, so build, wow"
+
+binary:
+	@echo "binary, so cryptic, wow?"
